@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelada em Portugal - Encontre seu Jogo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Pelada.pt</h1>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeZ6w5tU8S3pg9giT24Eu8GLLsrWPJZtcDGBpsqHIDry5cnEg/viewform?usp=header" target="_blank" class="btn-cadastrar">Cadastrar Pelada</a>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="filtros">
+            <input type="text" id="filtroCidade" placeholder="Filtrar por cidade...">
+        </div>
+
+        <div id="lista-peladas">
+            <!-- As peladas serão inseridas aqui via JS -->
+            <!-- Exemplo de como um card de pelada vai parecer: -->
+            <!--
+            <div class="pelada-card">
+                <div class="pelada-info">
+                    <h2>Pelada dos Amigos</h2>
+                    <p class="localizacao">📍 Lisboa</p>
+                    <p class="data-hora">🗓️ 25/10/2023 - 🕖 19:30</p>
+                </div>
+                <div class="pelada-contato">
+                    <a href="#" class="btn-contato">Ver Contato</a>
+                </div>
+            </div>
+            -->
+        </div>
+        <div id="loading" class="loading-spinner"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
